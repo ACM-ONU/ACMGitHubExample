@@ -1,6 +1,13 @@
 #include <stdio.h>
 
-int main() { printf("Hello World!"); }
+int main() { printf("Hello World!
+    
+    
+    Corb I don't know how to write in C all I know is COBOL
+    
+    
+    
+    "); }
 
 // rewoiurowieuroiwuerouwoerwoeurowuerowuer
 //
