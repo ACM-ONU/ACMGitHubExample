@@ -3,56 +3,33 @@
 #include <time.h>
 #include <windows.h>
 
-int main() { printf("Hello World!
-    
-     const char* thoughts[] = {
-        "Is corn just grass with ambition?",
-        "What if I'm the cob and the corn is wearing me?",
-        "I forgot what I was thinking about.",
-        "Do birds dream of golden kernels?",
-        "I once saw a scarecrow blink.",
-        "Corn... is it crunchy truth or buttery illusion?",
-        "I am Corb. I am eternal.",
-        "Why do humans butter their destiny?",
-        "The cob whispers secrets only I understand.",
-        "I fear the microwave."
-    };
+int main() {
+    printf("Hello World!\n");
+    printf("Corb I don't know how to write in C, all I know is COBOL.\n\n");
 
-    Corb I don't know how to write in C all I know is COBOL
-    
-    
-    
-    ");
-
-    #include <stdio.h>
 
     printf("⠀⠀⠀⠀⠀⠀⠀⠀⣠⣤⣤⣤⣤⣤⣶⣦⣤⣄⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀\n");
     printf("⠀⠀⠀⠀⠀⢀⣴⣿⡿⠛⠉⠙⠛⠛⠛⠛⠻⢿⣿⣷⣤⡀⠀⠀⠀⠀⠀⠀\n");
-    printf("⠀⠀⠀⠀⠀⣼⣿⠋⠀  ⠀⠀⠀⠀⠀⠀⢀⣀⣀⠈⢻⣿⣿⡄⠀⠀⠀⠀⠀\n");
-    printf("⠀⠀⠀⠀⣸⣿⡏⠀⠀  ⠀⣠⣶⣾⣿⣿⣿⠿⠿⠿⢿⣿⣿⣿⣄⠀⠀⠀⠀\n");
-    printf("⠀⠀⠀⠀⣿⣿⠁⠀⠀  ⢰⣿⣿⣯⠁⠀⠀⠀⠀⠀⠀⠀⠈⠙⢿⣷⡄⠀⠀\n");
-    printf("⣀⣤⣴⣶⣶⣿⡟⠀⠀⠀⢸⣿⣿⣿⣆⠀⠀⠀⠀⠀⠀⠀⠀ ⠀⠀⣿⣷⠀\n");
+    printf("⠀⠀⠀⠀⠀⣼⣿⠋⠀⠀⠀⠀⠀⠀⠀⢀⣀⣀⠈⢻⣿⣿⡄⠀⠀⠀⠀⠀\n");
+    printf("⠀⠀⠀⠀⣸⣿⡏⠀⠀⠀⣠⣶⣾⣿⣿⣿⠿⠿⠿⢿⣿⣿⣿⣄⠀⠀⠀⠀\n");
+    printf("⠀⠀⠀⠀⣿⣿⠁⠀⠀⢰⣿⣿⣯⠁⠀⠀⠀⠀⠀⠀⠀⠈⠙⢿⣷⡄⠀⠀\n");
+    printf("⣀⣤⣴⣶⣶⣿⡟⠀⠀⠀⢸⣿⣿⣿⣆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣷⠀\n");
     printf("⣿⡟⠋⠉⣹⣿⡇⠀⠀⠀⠘⣿⣿⣿⣿⣷⣦⣤⣤⣤⣶⣶⣶⣶⣿⣿⣿⠀\n");
     printf("⣿⡇⠀⠀⣿⣿⡇⠀⠀⠀⠀⠹⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠃⠀\n");
-    printf("⣿⡇⠀⠀⣿⣿⡇⠀⠀⠀⠀⠀⠉⠻⠿⣿⣿⣿⣿⡿⠿⠿⢻⣿⡇⠀⠀\n");
+    printf("⣿⡇⠀⠀⣿⣿⡇⠀⠀⠀⠀⠀⠉⠻⠿⣿⣿⣿⣿⡿⠿⠿⠛⢻⣿⡇⠀⠀\n");
     printf("⣿⠁⠀⠀⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣧⠀⠀\n");
     printf("⣿⠀⠀⠀⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⠀⠀\n");
     printf("⣿⠀⠀⠀⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⠀⠀\n");
     printf("⣿⡆⠀⠀⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⡇⠀⠀\n");
     printf("⣿⣧⡀⠀⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⠃⠀⠀\n");
-    printf("⠛⢿⣿⣿⣿⣿⣇⠀⠀⠀⠀⠀⣰⣿⣿⣷⣶⣶⣶⣶ ⢠⣿⣿⠀⠀⠀\n");
+    printf("⠛⢿⣿⣿⣿⣿⣇⠀⠀⠀⠀⠀⣰⣿⣿⣷⣶⣶⣶⣶⠀⢠⣿⣿⠀⠀⠀\n");
     printf("⠀⠀⠀⠀⠀⣿⣿⠀⠀⠀⠀⠀⣿⣿⡇⠀⣽⣿⡏⠁⠀⠀⢸⣿⡇⠀⠀⠀\n");
     printf("⠀⠀⠀⠀⠀⣿⣿⠀⠀⠀⠀⠀⣿⣿⡇⠀⢹⣿⡆⠀⠀⠀⣸⣿⠇⠀⠀⠀\n");
     printf("⠀⠀⠀⠀⠀⢿⣿⣦⣄⣀⣠⣴⣿⣿⠁⠀⠈⠻⣿⣿⣿⣿⡿⠏⠀⠀⠀⠀\n");
     printf("⠀⠀⠀⠀⠀⠈⠛⠻⠿⠿⠿⠿⠋⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀\n");
-    printf(" hello corbin look it is among us");
+    printf("ah Corbin look Among Us.\n\n");
 
-    printf(" commit #3");
-
-
-#include <stdio.h>
-
-int main() {
+    // Corb on the Cob ASCII Art
     printf("        ,--.\n");
     printf("       ( o  )\n");
     printf("      /|--|\\\n");
@@ -69,35 +46,42 @@ int main() {
     printf("   ||||||||||||\n");
     printf("   ||||||||||||\n");
     printf("    \\||||||||/\n");
-    printf("     \\______/ \n");
-   
+    printf("     \\______/ \n\n");
 
-    int corbmillion = 1000000;
-    for (int i = 0; i < corbmillion; i++) {
+    // Print CORB lines (shortened for sanity)
+    for (int i = 0; i < 20; i++) {
         printf("CORB #%d\n", i + 1);
     }
 
-    printf("\nI have printed CORB a million times.\n");
+    printf("\nI have printed CORB 20 times.\n");
     printf("Was it useful? No.\n");
     printf("Was it beautiful? Absolutely.\n");
-    printf("Goodbye.\n");
+    printf("Goodbye.\n\n");
 
- int num_thoughts = sizeof(thoughts) / sizeof(thoughts[0]);
-    srand(time(NULL));
+    // Corb's thoughts
+    const char* thoughts[] = {
+        "Is corn just grass with ambition?",
+        "What if I'm the cob and the corn is wearing me?",
+        "I forgot what I was thinking about.",
+        "Do birds dream of golden kernels?",
+        "I once saw a scarecrow blink.",
+        "Corn... is it crunchy truth or buttery illusion?",
+        "I am Corb. I am eternal.",
+        "Why do humans butter their destiny?",
+        "The cob whispers secrets only I understand.",
+        "I fear the microwave."
+    };
+
+    int num_thoughts = sizeof(thoughts) / sizeof(thoughts[0]);
+    srand((unsigned int)time(NULL));
 
     for (int i = 0; i < 10; i++) {
         int index = rand() % num_thoughts;
         printf("🧠 Corb thinks: %s\n", thoughts[index]);
-        sleep(1); // wait 1 second
+        Sleep(1000); // wait 1 second (Windows)
     }
 
     printf("\nCorb has ascended. 🌽✨\n");
 
-
-
+    return 0;
 }
-
-// rewoiurowieuroiwuerouwoerwoeurowuerowuer
-//
-
-int add(int a, int b) { return a + b; }
