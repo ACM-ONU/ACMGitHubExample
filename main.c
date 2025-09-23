@@ -1,8 +1,23 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+#include <windows.h>
 
 int main() { printf("Hello World!
     
-    
+     const char* thoughts[] = {
+        "Is corn just grass with ambition?",
+        "What if I'm the cob and the corn is wearing me?",
+        "I forgot what I was thinking about.",
+        "Do birds dream of golden kernels?",
+        "I once saw a scarecrow blink.",
+        "Corn... is it crunchy truth or buttery illusion?",
+        "I am Corb. I am eternal.",
+        "Why do humans butter their destiny?",
+        "The cob whispers secrets only I understand.",
+        "I fear the microwave."
+    };
+
     Corb I don't know how to write in C all I know is COBOL
     
     
@@ -67,7 +82,16 @@ int main() {
     printf("Was it beautiful? Absolutely.\n");
     printf("Goodbye.\n");
 
+ int num_thoughts = sizeof(thoughts) / sizeof(thoughts[0]);
+    srand(time(NULL));
 
+    for (int i = 0; i < 10; i++) {
+        int index = rand() % num_thoughts;
+        printf("🧠 Corb thinks: %s\n", thoughts[index]);
+        sleep(1); // wait 1 second
+    }
+
+    printf("\nCorb has ascended. 🌽✨\n");
 
 
 
